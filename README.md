@@ -38,11 +38,18 @@ You will build a modular SPI driver on Zynq PS that:
 The Zynq PS must act as a USB device, parsing incoming commands from the host PC to:
 - Trigger AFE SPI commands
 - Report status or data (if needed)
-- Maintain modularity for possible future extension to Ethernet/UART
-
----
-
-## 📦 Project Structure
+- Develop an interface with ZYNQ so as to communicate directly eith TI AFE end devices.
 
 
 ---
+
+## 👨‍💻 Team
+
+Akshay Muthu Shankar G
+Darshana R
+Shakti Lakshmi 
+Bhavaneeshwari
+
+---
+
+
