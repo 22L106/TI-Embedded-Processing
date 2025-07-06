@@ -45,10 +45,10 @@ The Zynq PS must act as a USB device, parsing incoming commands from the host PC
 
 ## 👨‍💻 Team
 
-Akshay Muthu Shankar G
-Darshana R
-Shakti Lakshmi 
-Bhavaneeshwari
+- Akshay Muthu Shankar G
+- Darshana R
+- Shakti Lakshmi 
+- Bhavaneeshwari
 
 ---
 
