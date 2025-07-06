@@ -1,41 +1,44 @@
-# Prerequisites
-*.d
+# === Embedded system specific ===
+*.hex
+*.bin
+*.elf
+*.map
+*.lst
+*.axf
+*.dasm
+*.lnp
+*.crf
+*.dep
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# === Xilinx Vivado / Vitis / Petalinux ===
+*.xpr
+*.xsa
+*.hwdef
+*.hdf
+*.bit
+*.jou
+*.log
+.cache/
+.hw/
+.runs/
+.sim/
+.sdk/
+.ip_user_files/
+vivado*
+*.tcl
 
-# Precompiled Headers
-*.gch
-*.pch
+# === STM32CubeIDE ===
+*.ioc
+*.launch
 
-# Linker files
-*.ilk
+# === IDEs ===
+.vscode/
+.idea/
+*.sublime-*
 
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
+# === NDA-protected or local dev ===
+/private_api/
+/TI_AFE_LIB/
+/do_not_commit/
+*.docx
+*.zip
