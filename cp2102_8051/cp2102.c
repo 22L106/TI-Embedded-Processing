@@ -1,6 +1,5 @@
 #include <reg51.h>
 
-// Port 2 LEDs
 sbit LED0 = P2^0;
 sbit LED1 = P2^1;
 sbit LED2 = P2^2;
@@ -9,7 +8,6 @@ sbit LED4 = P2^4;
 sbit LED5 = P2^5;
 sbit LED6 = P2^6;
 sbit LED7 = P2^7;
-
 
 void UART_Tx(char ch) {
     SBUF = ch;
@@ -27,10 +25,9 @@ void clear_all_leds() {
 }
 
 void main() {
-		SCON = 0x50;
     TMOD = 0x20;   // Timer1, Mode 2  [Gate- C/T'- M1- M0 (8bit autoreload mode)]
     TH1 = 0xFD;    // 9600 baud  
-    SCON = 0x50;   // 8-bit UART mode
+    SCON = 0x50;   // 8-bit UART mode 
     TR1 = 1;       // Start timer    clear_all_leds();
 
     while (1) {
@@ -53,55 +50,3 @@ void main() {
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
