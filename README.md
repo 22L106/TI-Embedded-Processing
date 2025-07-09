@@ -1,6 +1,6 @@
 # 🔧 TI-Zynq AFE SPI+USB Framework (Private Repo)
 
-> Industry-mentored embedded project under NDA with Texas Instruments.  
+> Industry-mentored embedded project with Texas Instruments.  
 > This repository contains the collaborative firmware and driver development for SPI-based communication between Zynq SoC and multiple TI AFE devices, with USB-based PC interface support.
 
 ---
