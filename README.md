@@ -43,6 +43,14 @@ The Zynq PS must act as a USB device, parsing incoming commands from the host PC
 
 ---
 
+## 👨‍💻 Mentors
+
+- Dr. Sivaraj D, Dept of ECE, PSGCT
+- Dr. Uma A, Dept of ECE, PSGCT
+
+
+---
+
 ## 👨‍💻 Team
 
 - Akshay Muthu Shankar G
