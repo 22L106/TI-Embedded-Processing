@@ -25,10 +25,10 @@ Key objectives include:
 ### 🧩 Milestone 1 — SPI Driver + TI AFE API Integration
 > **"Develop an SPI driver (sequential/broadcast read/write) to enable fast wake-up of multiple DUTs. Interface with TI AFE API."**
 
-You will build a modular SPI driver on Zynq PS that:
+We will build a modular SPI driver on Zynq PS that:
 - Supports multiple chip selects
 - Handles wake-up/config sequence for each DUT
-- Is compatible with the TI AFE API (provided under NDA)
+- Is compatible with the TI AFE API
 
 ---
 
@@ -38,7 +38,7 @@ You will build a modular SPI driver on Zynq PS that:
 The Zynq MicroBlaze must act as a USB device, parsing incoming commands from the host PC to:
 - Trigger AFE SPI commands
 - Report status or data (if needed)
-- Develop an interface with ZYNQ so as to communicate directly eith TI AFE end devices.
+- Develop an interface with ZYNQ so as to communicate directly with TI AFE end devices.
 
 
 ---
