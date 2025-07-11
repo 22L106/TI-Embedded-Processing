@@ -72,8 +72,4 @@ This project implements a persistent 3-digit decimal counter (000–999) using a
 **Akshay Muthu Shankar G**  
 Project: I2C EEPROM-based persistent counter with 8051 MCU
 
----
 
-## 📜 License
-
-This project is open-source and available under the MIT License.
