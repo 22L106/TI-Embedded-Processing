@@ -10,13 +10,13 @@
 This project is a part of an exclusive Texas Instruments – PSG College of Technology collaboration under the Embedded Systems vertical. It aims to build an end-to-end firmware framework that bridges:
 
 - 🧠 **Zynq SoC (ARM PS)** ↔ **TI Analog Front-End Devices (DUTs)** via SPI
-- 💻 **PC/Host system** ↔ **Zynq** via USB Command Interface
+- 💻 **PC/Host system** ↔ **Zynq MicroBlaze** via USB Command Interface
 
 Key objectives include:
 - ✔️ Custom SPI driver with support for **sequential** and **broadcast** communication
 - ✔️ Fast wake-up and configuration of **multiple DUTs**
 - ✔️ Seamless integration of **TI AFE API**
-- ✔️ Zynq acting as a **USB device**, accepting PC commands to control DUTs
+- ✔️ Zynq MicroBlaze acting as a **USB device**, accepting PC commands to control DUTs
 
 ---
 
@@ -35,7 +35,7 @@ You will build a modular SPI driver on Zynq PS that:
 ### 🧩 Milestone 2 — USB ↔ Zynq Command Bridge
 > **"Develop interface between Zynq and the PC to be able to send/receive commands via USB. Integrate TI APIs in Zynq and trigger them from PC."**
 
-The Zynq PS must act as a USB device, parsing incoming commands from the host PC to:
+The Zynq MicroBlaze must act as a USB device, parsing incoming commands from the host PC to:
 - Trigger AFE SPI commands
 - Report status or data (if needed)
 - Develop an interface with ZYNQ so as to communicate directly eith TI AFE end devices.
