@@ -1,4 +1,6 @@
 #include<reg51.h>
+
+//set 4 pins of port 0 for spi communication
 sbit cs = P0^0;
 sbit sck = P0^1;
 sbit mosi = P0^2;
@@ -15,12 +17,15 @@ unsigned char a[]={0x3f,0x06,0x5b,0x4f,0x66,0x6d,0x7c,0x07,0x7f,0x6f};
 unsigned char thou,hunds,tens,ones;
 unsigned int c,temp;
 
+//delay for spi communication
 void delay(unsigned int x){
 	unsigned int i,a;
 	for(i=0;i<20;i++) 
 	{		a = x;
 			while(a--);}
 }
+
+//delay for display refreshing
 void disp_delay(unsigned int x)
 {
 	while(x--);
@@ -58,6 +63,8 @@ void restart(){ //sets chip select bar to 1; since we use mode 3, sck is initial
 	mosi = 1;
 	delay(100);
 }
+
+//since clock is set to mode 3, initially clock is set to 0
 void start(){ //pull csb is pulled low to select the chip
 	cs = 0;
 	sck = 1;
@@ -118,7 +125,7 @@ void stop(){
 	delay(100);
 }
 
-//sets bmp280 back to sleep mode
+//sets bmp280 back to sleep mode(read the sensor datasheet)
 void reset(){
 	start();
 	send_address(0xE0);
@@ -166,7 +173,7 @@ void main(){
 			write_data(0x23); //00000000
 			send_address(0x75);
 			write_data(0x00);
-			//dig_T
+			//dig_T -> do burst read
 			send_address(0x88);
 			dat1 = receive_data();
 			dat1 |= (receive_data()<<8);
@@ -190,6 +197,7 @@ void main(){
 			while(1);
 	}
 }
+
 
 
 
