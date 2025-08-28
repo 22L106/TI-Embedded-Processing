@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Aug  7 14:50:52 2025
+# Process ID: 31077
+# Current directory: /home/vlsiuser/MB_ETH
+# Command line: vivado
+# Log file: /home/vlsiuser/MB_ETH/vivado.log
+# Journal file: /home/vlsiuser/MB_ETH/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/vlsiuser/MB_ETH/NEX_ETH_IP/NEX_ETH_IP.xpr
+update_compile_order -fileset sources_1
+launch_sdk -workspace /home/vlsiuser/MB_ETH/NEX_ETH_IP/NEX_ETH_IP.sdk -hwspec /home/vlsiuser/MB_ETH/NEX_ETH_IP/NEX_ETH_IP.sdk/MB_ETH_wrapper.hdf

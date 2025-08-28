@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1754387268">
+  <File Type="ROUTE-DRC-RPX" Name="MB_ETH_wrapper_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="MB_ETH_wrapper_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="MB_ETH_wrapper_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="MB_ETH_wrapper_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="MB_ETH_wrapper_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="MB_ETH_wrapper_route_status.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="MB_ETH_wrapper_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="MB_ETH_wrapper_postroute_physopt_bb.dcp"/>
+  <File Type="RDI-RDI" Name="MB_ETH_wrapper.vdi"/>
+  <File Type="BITSTR-LTX" Name="MB_ETH_wrapper.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="MB_ETH_wrapper.sysdef"/>
+  <File Type="BG-BGN" Name="MB_ETH_wrapper.bgn"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-BUS-SKEW" Name="MB_ETH_wrapper_bus_skew_routed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="MB_ETH_wrapper_postplace_pwropt.dcp"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="MB_ETH_wrapper_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="MB_ETH_wrapper_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="MB_ETH_wrapper_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="MB_ETH_wrapper_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="MB_ETH_wrapper_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="MB_ETH_wrapper_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="MB_ETH_wrapper_pwropt.dcp"/>
+  <File Type="OPT-HWDEF" Name="MB_ETH_wrapper.hwdef"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="MB_ETH_wrapper_bus_skew_routed.pb"/>
+  <File Type="PA-TCL" Name="MB_ETH_wrapper.tcl"/>
+  <File Type="BITSTR-MSK" Name="MB_ETH_wrapper.msk"/>
+  <File Type="ROUTE-TIMING-PB" Name="MB_ETH_wrapper_timing_summary_routed.pb"/>
+  <File Type="PHYSOPT-DCP" Name="MB_ETH_wrapper_physopt.dcp"/>
+  <File Type="BITSTR-RBT" Name="MB_ETH_wrapper.rbt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="MB_ETH_wrapper_timing_summary_routed.rpx"/>
+  <File Type="REPORTS-TCL" Name="MB_ETH_wrapper_reports.tcl"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="MB_ETH_wrapper_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="MB_ETH_wrapper_opt.dcp"/>
+  <File Type="OPT-DRC" Name="MB_ETH_wrapper_drc_opted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="MB_ETH_wrapper_routed_error.dcp"/>
+  <File Type="BG-DRC" Name="MB_ETH_wrapper.drc"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="MB_ETH_wrapper_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-DCP" Name="MB_ETH_wrapper_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="MB_ETH_wrapper_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="MB_ETH_wrapper_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="MB_ETH_wrapper_drc_routed.pb"/>
+  <File Type="BG-BIT" Name="MB_ETH_wrapper.bit"/>
+  <File Type="ROUTE-STATUS-PB" Name="MB_ETH_wrapper_route_status.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="MB_ETH_wrapper_methodology_drc_routed.rpt"/>
+  <File Type="BG-BIN" Name="MB_ETH_wrapper.bin"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="MB_ETH_wrapper_timing_summary_routed.rpt"/>
+  <File Type="BITSTR-NKY" Name="MB_ETH_wrapper.nky"/>
+  <File Type="BITSTR-BMM" Name="MB_ETH_wrapper_bd.bmm"/>
+  <File Type="ROUTE-CLK" Name="MB_ETH_wrapper_clock_utilization_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="MB_ETH_wrapper.mmi"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/MB_ETH/MB_ETH.bd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../NEX_ETH_IP/NEX_ETH_IP.srcs/sources_1/bd/MB_ETH/MB_ETH.bd"/>
+        <Attr Name="ImportTime" Val="1754376542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/MB_ETH/hdl/MB_ETH_wrapper.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../NEX_ETH_IP/NEX_ETH_IP.srcs/sources_1/bd/MB_ETH/hdl/MB_ETH_wrapper.v"/>
+        <Attr Name="ImportTime" Val="1754376769"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/MB_ETH/ip/MB_ETH_mig_7series_0_0/board.prj">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../NEX_ETH_IP/NEX_ETH_IP.srcs/sources_1/bd/MB_ETH/ip/MB_ETH_mig_7series_0_0/board.prj"/>
+        <Attr Name="ImportTime" Val="1752599063"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="ScopedToCell" Val="MB_ETH_mig_7series_0_0"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="MB_ETH_wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/eth_ref_clk.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../NEX_ETH_IP/NEX_ETH_IP.srcs/constrs_1/new/eth_ref_clk.xdc"/>
+        <Attr Name="ImportTime" Val="1754387261"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="MB_ETH_axi_smc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MB_ETH_rst_mig_7series_0_81M_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MB_ETH_clk_wiz_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MB_ETH_lmb_bram_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MB_ETH_ilmb_bram_if_cntlr_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MB_ETH_ilmb_v10_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MB_ETH_rst_clk_wiz_1_100M_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MB_ETH_axi_timer_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MB_ETH_dlmb_v10_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MB_ETH_axi_ethernetlite_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MB_ETH_mig_7series_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MB_ETH_mii_to_rmii_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MB_ETH_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MB_ETH_axi_uartlite_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MB_ETH_microblaze_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MB_ETH_microblaze_0_axi_intc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MB_ETH_mdm_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MB_ETH_dlmb_bram_if_cntlr_0"/>
+</GenRun>

@@ -1,0 +1,6 @@
+12:18:31 **** Incremental Build of configuration Debug for project echo_server_app_bsp_xemaclite_phy_loopback_example_1 ****
+make all 
+make: Nothing to be done for 'all'.
+
+12:18:31 Build Finished (took 56ms)
+

@@ -1,0 +1,318 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 5946
+License: Customer
+
+Current time: 	Thu Aug 07 11:14:54 IST 2025
+Time zone: 	India Standard Time (Asia/Kolkata)
+
+OS: Red Hat Enterprise Linux release 8.9 (Ootpa)
+OS Version: 4.18.0-513.5.1.el8_9.x86_64
+OS Architecture: amd64
+Available processors (cores): 24
+
+Display: :0
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 50 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	/home/vlsiuser/SMDP/Xilinx/Vivado/2018.3/tps/lnx64/jre9.0.4
+Java executable location: 	/home/vlsiuser/SMDP/Xilinx/Vivado/2018.3/tps/lnx64/jre9.0.4/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	vlsiuser
+User home directory: /home/vlsiuser
+User working directory: /home/vlsiuser/MB_ETH
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /home/vlsiuser/SMDP/Xilinx/Vivado
+HDI_APPROOT: /home/vlsiuser/SMDP/Xilinx/Vivado/2018.3
+RDI_DATADIR: /home/vlsiuser/SMDP/Xilinx/Vivado/2018.3/data
+RDI_BINDIR: /home/vlsiuser/SMDP/Xilinx/Vivado/2018.3/bin
+
+Vivado preferences file location: /home/vlsiuser/.Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: /home/vlsiuser/.Xilinx/Vivado/2018.3/
+Vivado layouts directory: /home/vlsiuser/.Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	/home/vlsiuser/SMDP/Xilinx/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	/home/vlsiuser/MB_ETH/vivado.log
+Vivado journal file location: 	/home/vlsiuser/MB_ETH/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-5946-psgvlsi-25.psgtech.ac.in
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /home/vlsiuser/SMDP/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINXD_LICENSE_FILE: 2100@14.139.1.126
+XILINX_DSP: /home/vlsiuser/SMDP/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: /home/vlsiuser/SMDP/Xilinx/Vivado/2018.3
+XILINX_SDK: /home/vlsiuser/SMDP/Xilinx/SDK/2018.3
+XILINX_VIVADO: /home/vlsiuser/SMDP/Xilinx/Vivado/2018.3
+XILINX_VIVADO_HLS: /home/vlsiuser/SMDP/Xilinx/Vivado/2018.3
+
+
+GUI allocated memory:	210 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 961 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "/home/vlsiuser/MB_ETH/NEX_ETH_IP/NEX_ETH_IP.xpr", 0); // q (Q, cp)
+// [GUI Memory]: 65 MB (+65793kb) [00:00:05]
+// [Engine Memory]: 969 MB (+864193kb) [00:00:05]
+// bx (cp):  Open Project : addNotify
+// Opening Vivado Project: /home/vlsiuser/MB_ETH/NEX_ETH_IP/NEX_ETH_IP.xpr. Version: Vivado v2018.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project /home/vlsiuser/MB_ETH/NEX_ETH_IP/NEX_ETH_IP.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,004 MB. GUI used memory: 45 MB. Current time: 8/7/25, 11:14:56 AM IST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 98 MB (+31304kb) [00:00:08]
+// [Engine Memory]: 1,090 MB (+76109kb) [00:00:08]
+// [GUI Memory]: 104 MB (+588kb) [00:00:08]
+// [GUI Memory]: 110 MB (+1169kb) [00:00:08]
+// [GUI Memory]: 117 MB (+1543kb) [00:00:08]
+// [GUI Memory]: 130 MB (+6941kb) [00:00:09]
+// WARNING: HEventQueue.dispatchEvent() is taking  1066 ms.
+// [Engine Memory]: 1,165 MB (+21852kb) [00:00:09]
+// Tcl Message: open_project /home/vlsiuser/MB_ETH/NEX_ETH_IP/NEX_ETH_IP.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/vlsiuser/SMDP/Xilinx/Vivado/2018.3/data/ip'. 
+// Project name: NEX_ETH_IP; location: /home/vlsiuser/MB_ETH/NEX_ETH_IP; part: xc7a100tcsg324-1
+// [Engine Memory]: 1,481 MB (+270530kb) [00:00:10]
+dismissDialog("Open Project"); // bx (cp)
+// Tcl Message: update_compile_order -fileset sources_1 
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (cp): Launch SDK: addNotify
+// Elapsed time: 15 seconds
+setText("RDIResource.SearchCommandComponent_QUICK_ACCESS", "Launch SDK"); // OverlayTextField (K, cp)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+dismissDialog("Launch SDK"); // aa (cp)
+// Tcl Message: launch_sdk -workspace /home/vlsiuser/MB_ETH/NEX_ETH_IP/NEX_ETH_IP.sdk -hwspec /home/vlsiuser/MB_ETH/NEX_ETH_IP/NEX_ETH_IP.sdk/MB_ETH_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace /home/vlsiuser/MB_ETH/NEX_ETH_IP/NEX_ETH_IP.sdk -hwspec /home/vlsiuser/MB_ETH/NEX_ETH_IP/NEX_ETH_IP.sdk/MB_ETH_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// [GUI Memory]: 143 MB (+7242kb) [00:01:00]
+// Elapsed time: 197 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// bx (cp):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {/home/vlsiuser/MB_ETH/NEX_ETH_IP/NEX_ETH_IP.srcs/sources_1/bd/MB_ETH/MB_ETH.bd} 
+// TclEventType: RSB_OPEN_DIAGRAM
+// [Engine Memory]: 1,565 MB (+10585kb) [00:03:45]
+// TclEventType: RSB_CONNECTION_CHANGE
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+dismissDialog("Open Block Design"); // bx (cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,400 MB. GUI used memory: 80 MB. Current time: 8/7/25, 11:18:36 AM IST
+// Run Command: PAResourceCommand.PACommandNames_OPEN_FILE
+// Elapsed time: 33 seconds
+dismissFileChooser();
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_FIT
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_FIT
+// Elapsed time: 24 seconds
+selectButton(PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN, "System_validate_bd_design_rsb"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN
+// Tcl Command: 'validate_bd_design -force'
+selectButton("PAResourceTtoZ.ValidateRSBDesign_BLOCK_DESIGN_ALREADY_IN_VALIDATED_STATE_Rerun Validate Design", "Rerun Validate Design"); // JButton (C, I)
+// TclEventType: RSB_PARAM_PROP
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// bx (cp):  Validate Design : addNotify
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: validate_bd_design -force 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_CLOSE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PARAM_PROP
+dismissDialog("Validate Design"); // bx (cp)
+selectButton("PAResourceTtoZ.ValidateRSBDesign_VALIDATION_SUCCESSFUL_THERE_NO_OK", "OK"); // JButton (C, I)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,658 MB. GUI used memory: 81 MB. Current time: 8/7/25, 11:19:41 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,503 MB. GUI used memory: 81 MB. Current time: 8/7/25, 11:49:41 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,494 MB. GUI used memory: 77 MB. Current time: 8/7/25, 12:19:41 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,493 MB. GUI used memory: 77 MB. Current time: 8/7/25, 12:49:41 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,493 MB. GUI used memory: 77 MB. Current time: 8/7/25, 1:19:42 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,495 MB. GUI used memory: 77 MB. Current time: 8/7/25, 1:49:42 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,495 MB. GUI used memory: 77 MB. Current time: 8/7/25, 2:19:42 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,549 MB. GUI used memory: 76 MB. Current time: 8/7/25, 2:39:32 PM IST

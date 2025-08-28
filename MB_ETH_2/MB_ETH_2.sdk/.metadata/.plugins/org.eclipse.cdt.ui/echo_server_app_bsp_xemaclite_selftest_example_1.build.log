@@ -1,0 +1,26 @@
+12:18:16 **** Incremental Build of configuration Debug for project echo_server_app_bsp_xemaclite_selftest_example_1 ****
+make all 
+Building file: ../src/xemaclite_example_util.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xemaclite_example_util.o" -I../../echo_server_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xemaclite_example_util.d" -MT"src/xemaclite_example_util.o" -o "src/xemaclite_example_util.o" "../src/xemaclite_example_util.c"
+Finished building: ../src/xemaclite_example_util.c
+ 
+Building file: ../src/xemaclite_selftest_example.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xemaclite_selftest_example.o" -I../../echo_server_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xemaclite_selftest_example.d" -MT"src/xemaclite_selftest_example.o" -o "src/xemaclite_selftest_example.o" "../src/xemaclite_selftest_example.c"
+Finished building: ../src/xemaclite_selftest_example.c
+ 
+Building target: echo_server_app_bsp_xemaclite_selftest_example_1.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../echo_server_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "echo_server_app_bsp_xemaclite_selftest_example_1.elf"  ./src/xemaclite_example_util.o ./src/xemaclite_selftest_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: echo_server_app_bsp_xemaclite_selftest_example_1.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size echo_server_app_bsp_xemaclite_selftest_example_1.elf  |tee "echo_server_app_bsp_xemaclite_selftest_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8700	    340	   3160	  12200	   2fa8	echo_server_app_bsp_xemaclite_selftest_example_1.elf
+Finished building: echo_server_app_bsp_xemaclite_selftest_example_1.elf.size
+ 
+
+12:18:16 Build Finished (took 106ms)
+

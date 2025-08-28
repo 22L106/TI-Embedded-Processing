@@ -1,0 +1,34 @@
+!SESSION 2025-08-08 15:18:23.190 -----------------------------------------------
+eclipse.buildId=2018.3
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/vlsiuser/MB_ETH/NEX_ETH_IP -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui 2 0 2025-08-08 15:18:23.750
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-08-08 15:18:23.750
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2025-08-08 15:18:24.010
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-08-08 15:18:24.010
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-08-08 15:18:25.773
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-08-08 15:18:25.773
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-08-08 15:18:25.776
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-08-08 15:18:25.776
+!MESSAGE XSCT Command: [setws /home/vlsiuser/MB_ETH/NEX_ETH_IP], Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-08-08 15:18:25.808
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-08-08 15:18:25.808
+!MESSAGE XSCT command with result: [setws /home/vlsiuser/MB_ETH/NEX_ETH_IP], Result: [null, ]. Thread: Thread-14

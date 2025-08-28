@@ -1,0 +1,171 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 31077
+License: Customer
+
+Current time: 	Thu Aug 07 14:50:59 IST 2025
+Time zone: 	India Standard Time (Asia/Kolkata)
+
+OS: Red Hat Enterprise Linux release 8.9 (Ootpa)
+OS Version: 4.18.0-513.5.1.el8_9.x86_64
+OS Architecture: amd64
+Available processors (cores): 24
+
+Display: :0
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 50 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	/home/vlsiuser/SMDP/Xilinx/Vivado/2018.3/tps/lnx64/jre9.0.4
+Java executable location: 	/home/vlsiuser/SMDP/Xilinx/Vivado/2018.3/tps/lnx64/jre9.0.4/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	vlsiuser
+User home directory: /home/vlsiuser
+User working directory: /home/vlsiuser/MB_ETH
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /home/vlsiuser/SMDP/Xilinx/Vivado
+HDI_APPROOT: /home/vlsiuser/SMDP/Xilinx/Vivado/2018.3
+RDI_DATADIR: /home/vlsiuser/SMDP/Xilinx/Vivado/2018.3/data
+RDI_BINDIR: /home/vlsiuser/SMDP/Xilinx/Vivado/2018.3/bin
+
+Vivado preferences file location: /home/vlsiuser/.Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: /home/vlsiuser/.Xilinx/Vivado/2018.3/
+Vivado layouts directory: /home/vlsiuser/.Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	/home/vlsiuser/SMDP/Xilinx/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	/home/vlsiuser/MB_ETH/vivado.log
+Vivado journal file location: 	/home/vlsiuser/MB_ETH/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-31077-psgvlsi-25.psgtech.ac.in
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /home/vlsiuser/SMDP/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINXD_LICENSE_FILE: 2100@14.139.1.126
+XILINX_DSP: /home/vlsiuser/SMDP/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: /home/vlsiuser/SMDP/Xilinx/Vivado/2018.3
+XILINX_SDK: /home/vlsiuser/SMDP/Xilinx/SDK/2018.3
+XILINX_VIVADO: /home/vlsiuser/SMDP/Xilinx/Vivado/2018.3
+XILINX_VIVADO_HLS: /home/vlsiuser/SMDP/Xilinx/Vivado/2018.3
+
+
+GUI allocated memory:	234 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 976 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "/home/vlsiuser/MB_ETH/NEX_ETH_IP/NEX_ETH_IP.xpr", 0); // q (Q, cp)
+// [GUI Memory]: 113 MB (+115805kb) [00:00:05]
+// [Engine Memory]: 977 MB (+872970kb) [00:00:05]
+// bx (cp):  Open Project : addNotify
+// Opening Vivado Project: /home/vlsiuser/MB_ETH/NEX_ETH_IP/NEX_ETH_IP.xpr. Version: Vivado v2018.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project /home/vlsiuser/MB_ETH/NEX_ETH_IP/NEX_ETH_IP.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 45 MB. Current time: 8/7/25, 2:51:01 PM IST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 1,100 MB (+78258kb) [00:00:07]
+// [GUI Memory]: 121 MB (+2158kb) [00:00:08]
+// [GUI Memory]: 130 MB (+3092kb) [00:00:08]
+// WARNING: HEventQueue.dispatchEvent() is taking  1060 ms.
+// [Engine Memory]: 1,164 MB (+9356kb) [00:00:08]
+// Tcl Message: open_project /home/vlsiuser/MB_ETH/NEX_ETH_IP/NEX_ETH_IP.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/vlsiuser/SMDP/Xilinx/Vivado/2018.3/data/ip'. 
+// Project name: NEX_ETH_IP; location: /home/vlsiuser/MB_ETH/NEX_ETH_IP; part: xc7a100tcsg324-1
+// [Engine Memory]: 1,535 MB (+327689kb) [00:00:09]
+dismissDialog("Open Project"); // bx (cp)
+// Tcl Message: update_compile_order -fileset sources_1 
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (cp): Launch SDK: addNotify
+// Elapsed time: 28 seconds
+setText("RDIResource.SearchCommandComponent_QUICK_ACCESS", "Launch SDK"); // OverlayTextField (K, cp)
+// [GUI Memory]: 144 MB (+8670kb) [00:01:07]
+// Elapsed time: 63 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+// 'o' command handler elapsed time: 63 seconds
+dismissDialog("Launch SDK"); // aa (cp)
+// Tcl Message: launch_sdk -workspace /home/vlsiuser/MB_ETH/NEX_ETH_IP/NEX_ETH_IP.sdk -hwspec /home/vlsiuser/MB_ETH/NEX_ETH_IP/NEX_ETH_IP.sdk/MB_ETH_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace /home/vlsiuser/MB_ETH/NEX_ETH_IP/NEX_ETH_IP.sdk -hwspec /home/vlsiuser/MB_ETH/NEX_ETH_IP/NEX_ETH_IP.sdk/MB_ETH_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,341 MB. GUI used memory: 77 MB. Current time: 8/7/25, 3:21:01 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 72 MB. Current time: 8/7/25, 3:51:01 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 72 MB. Current time: 8/7/25, 4:21:01 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/7/25, 4:51:01 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/7/25, 5:21:01 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/7/25, 5:51:01 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/7/25, 6:21:01 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/7/25, 6:51:01 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/7/25, 7:21:01 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/7/25, 7:51:02 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/7/25, 8:21:02 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/7/25, 8:51:02 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/7/25, 9:21:02 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/7/25, 9:51:02 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/7/25, 10:21:02 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/7/25, 10:51:02 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/7/25, 11:21:02 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/7/25, 11:51:02 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/8/25, 12:21:02 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/8/25, 12:51:02 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/8/25, 1:21:03 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/8/25, 1:51:03 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/8/25, 2:21:03 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/8/25, 2:51:03 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/8/25, 3:21:03 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/8/25, 3:51:03 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/8/25, 4:21:03 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/8/25, 4:51:03 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/8/25, 5:21:03 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/8/25, 5:51:03 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/8/25, 6:21:03 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/8/25, 6:51:04 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/8/25, 7:21:04 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/8/25, 7:51:04 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/8/25, 8:21:04 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/8/25, 8:51:04 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/8/25, 9:21:04 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/8/25, 9:51:04 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/8/25, 10:21:04 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/8/25, 10:51:04 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/8/25, 11:21:04 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/8/25, 11:51:04 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/8/25, 12:21:05 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/8/25, 12:51:05 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/8/25, 1:21:05 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/8/25, 1:51:05 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 73 MB. Current time: 8/8/25, 2:21:05 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,323 MB. GUI used memory: 71 MB. Current time: 8/8/25, 2:47:05 PM IST

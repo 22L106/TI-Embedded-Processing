@@ -1,0 +1,12 @@
+15:47:04 **** Incremental Build of configuration Debug for project echo_server_app_bsp_xemaclite_internal_loopback_example_1 ****
+make all 
+Building target: echo_server_app_bsp_xemaclite_internal_loopback_example_1.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../echo_server_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "echo_server_app_bsp_xemaclite_internal_loopback_example_1.elf"  ./src/xemaclite_example_util.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+/home/vlsiuser/SMDP/Xilinx/SDK/2018.3/gnu/microblaze/lin/bin/../lib/gcc/microblaze-xilinx-elf/7.3.1/../../../../microblaze-xilinx-elf/lib/le/crtinit.o: In function `_crtinit':
+(.text+0x78): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:38: echo_server_app_bsp_xemaclite_internal_loopback_example_1.elf] Error 1
+
+15:47:04 Build Finished (took 56ms)
+

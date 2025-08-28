@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# updatemem v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# 
+# Start of session at: Fri Aug  8 14:57:31 2025
+# Process ID: 298692
+# Current directory: /home/vlsiuser/MB_ETH
+# Command line: updatemem -mode batch -source /home/vlsiuser/SMDP/Xilinx/SDK/2018.3/scripts/updatemem/main.tcl -notrace -tclargs -meminfo /home/vlsiuser/MB_ETH/NEX_ETH_IP/NEX_ETH_IP.sdk/MB_ETH_wrapper_hw_platform_0/MB_ETH_wrapper.mmi -data /home/vlsiuser/SMDP/Xilinx/SDK/2018.3/data/embeddedsw/lib/microblaze/mb_bootloop_le.elf -proc MB_ETH_i/microblaze_0 -bit /home/vlsiuser/MB_ETH/NEX_ETH_IP/NEX_ETH_IP.sdk/MB_ETH_wrapper_hw_platform_0/MB_ETH_wrapper.bit -out /home/vlsiuser/MB_ETH/NEX_ETH_IP/NEX_ETH_IP.sdk/MB_ETH_wrapper_hw_platform_0/download.bit -force
+# Log file: /home/vlsiuser/MB_ETH/updatemem.log
+# Journal file: /home/vlsiuser/MB_ETH/updatemem.jou
+#-----------------------------------------------------------
+source /home/vlsiuser/SMDP/Xilinx/SDK/2018.3/scripts/updatemem/main.tcl -notrace
+ Loading bitfile /home/vlsiuser/MB_ETH/NEX_ETH_IP/NEX_ETH_IP.sdk/MB_ETH_wrapper_hw_platform_0/MB_ETH_wrapper.bit
+Loading data files...
+Updating memory content...
+Creating bitstream...
+Writing bitstream /home/vlsiuser/MB_ETH/NEX_ETH_IP/NEX_ETH_IP.sdk/MB_ETH_wrapper_hw_platform_0/download.bit...
+  INFO: [Common 17-206] Exiting updatemem at Fri Aug  8 14:57:35 2025...

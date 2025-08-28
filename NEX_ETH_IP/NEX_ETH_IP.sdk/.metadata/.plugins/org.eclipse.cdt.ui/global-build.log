@@ -1,0 +1,51 @@
+15:48:04 **** Incremental Build of configuration Release for project echo_server_app_bsp_xemaclite_intr_example_1 ****
+make all 
+Building file: ../src/xemaclite_example_util.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/xemaclite_example_util.o" -I../../echo_server_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xemaclite_example_util.d" -MT"src/xemaclite_example_util.o" -o "src/xemaclite_example_util.o" "../src/xemaclite_example_util.c"
+Finished building: ../src/xemaclite_example_util.c
+ 
+Building file: ../src/xemaclite_intr_example.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/xemaclite_intr_example.o" -I../../echo_server_app_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xemaclite_intr_example.d" -MT"src/xemaclite_intr_example.o" -o "src/xemaclite_intr_example.o" "../src/xemaclite_intr_example.c"
+../src/xemaclite_intr_example.c: In function 'EmacLiteSendHandler':
+../src/xemaclite_intr_example.c:557:13: warning: variable 'XEmacInstancePtr' set but not used [-Wunused-but-set-variable]
+  XEmacLite *XEmacInstancePtr;
+             ^~~~~~~~~~~~~~~~
+Finished building: ../src/xemaclite_intr_example.c
+ 
+Building target: echo_server_app_bsp_xemaclite_intr_example_1.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../echo_server_app_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "echo_server_app_bsp_xemaclite_intr_example_1.elf"  ./src/xemaclite_example_util.o ./src/xemaclite_intr_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: echo_server_app_bsp_xemaclite_intr_example_1.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size echo_server_app_bsp_xemaclite_intr_example_1.elf  |tee "echo_server_app_bsp_xemaclite_intr_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  15572	    348	   6360	  22280	   5708	echo_server_app_bsp_xemaclite_intr_example_1.elf
+Finished building: echo_server_app_bsp_xemaclite_intr_example_1.elf.size
+ 
+
+15:48:05 Build Finished (took 107ms)
+
+15:48:05 **** Incremental Build of configuration Debug for project echo_server_app_bsp_xemaclite_intr_example_1 ****
+make all 
+make: Nothing to be done for 'all'.
+15:48:26 **** Incremental Build of configuration Debug for project echo_server_app_bsp_xemaclite_intr_example_1 ****
+make all 
+make: Nothing to be done for 'all'.
+15:48:54 **** Incremental Build of configuration Debug for project echo_server_app_bsp_xemaclite_intr_example_1 ****
+make all 
+make: Nothing to be done for 'all'.
+15:49:51 **** Incremental Build of configuration Debug for project echo_server_app_bsp_xemaclite_intr_example_1 ****
+make all 
+make: Nothing to be done for 'all'.
+15:50:11 **** Incremental Build of configuration Debug for project echo_server_app_bsp_xemaclite_intr_example_1 ****
+make all 
+make: Nothing to be done for 'all'.
+15:51:12 **** Incremental Build of configuration Debug for project echo_server_app_bsp_xemaclite_intr_example_1 ****
+make all 
+make: Nothing to be done for 'all'.
+15:51:26 **** Incremental Build of configuration Debug for project echo_server_app_bsp_xemaclite_phy_loopback_example_1 ****
+make all 
+make: Nothing to be done for 'all'.
