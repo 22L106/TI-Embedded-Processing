@@ -109,7 +109,7 @@ uint32_t afeSpiBurstWrite(uint8_t afeInst, uint16_t addr, uint8_t *data, uint16_
             return TI_AFE_RET_EXEC_FAIL;
         }
 
-        // 🔍 Debug print TX and RX for this chunk
+     
         xil_printf("Chunk Addr=0x%04X, Len=%d\n", addr, chunkSize);
 
         xil_printf("TX: ");
@@ -128,8 +128,7 @@ uint32_t afeSpiBurstWrite(uint8_t afeInst, uint16_t addr, uint8_t *data, uint16_
         offset += chunkSize;
         bytesRemaining -= chunkSize;
 
-        // ❓ If your AFE auto-increments, keep addr fixed.
-        //    If not, you may need: addr += chunkSize;
+
     }
 
     xil_printf("Burst Write: StartAddr=0x%04X, Total Len=%d\n", addr, dataArraySize);
