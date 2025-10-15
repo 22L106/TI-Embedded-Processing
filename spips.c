@@ -61,4 +61,3 @@ int SpiPs_Init(u16 SpiDeviceId, int clk_option)
     XSpiPs_Enable(&SpiInstance);
     return XST_SUCCESS;
 }
-
